@@ -1,3 +1,10 @@
 node_modules/
 .millennium/
 bun.lockb
+
+# --- added by security audit patch (2026-07-08) ---
+.env
+.env.*
+.dev.vars
+.dev.vars.*
+.wrangler/
